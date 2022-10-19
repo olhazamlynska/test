@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.js-card-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18;
+}
+.photo {
+  width: 80px;
+}
+.photo-card {
+}
+.info {
+}
+.info-item {
+  margin: 0;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
